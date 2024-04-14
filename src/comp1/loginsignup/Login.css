@@ -1,0 +1,102 @@
+.container {
+    width: 900px; /* Changed width to 400px for better alignment */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 450px;
+}
+  
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+.underline {
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 20px;
+}
+  
+.inputs {
+    margin-bottom: 20px; /* Increased margin-bottom for better separation */
+}
+  
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.input img {
+    width: 20px; /* Adjusted image width to 20px */
+    margin-right: 10px;
+}
+  
+.input input {
+    width: calc(100% - 30px); /* Adjusted input width calculation */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+/* Adjust styles for focus/hover states as needed */
+.input input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+  
+.input input::placeholder {
+    color: #aaa;
+}
+.buttons {
+    display: flex;
+    margin-top: 10px; /* Adjust margin as needed */
+    margin-left: 10px;
+  }
+  
+  .buttons button {
+    padding: 10px 30px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin between buttons */
+  }
+  
+  .buttons button:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+  }
+  
+  .buttons button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .buttons button[type="submit"]:hover {
+    background-color: #20a54c; /* Darker shade on hover */
+  }
+  
+  .buttons button[type="button"] {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .buttons button[type="button"]:hover {
+    background-color: #e01212; /* Darker shade on hover */
+  }
+  .container {
+    position: relative;
+    /* Other styles for your container */
+  }
+  
+  .message {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(12, 247, 44);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  
